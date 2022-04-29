@@ -1,0 +1,20 @@
+<%= form_for @user do |f| %>
+  <p> <%=f.label :name %>
+     <%= f.text_field :name %> 
+  </p>
+
+  <p>
+    <%= f.label :age %>
+    <%= f.text_field :age %>
+  </p>
+
+  <p>
+    <%= f.label :sex %>
+    <%= f.text_field :sex%>
+  </p>
+
+  <p>
+    <%= f.submit %>
+  </p>
+
+<%end%>
